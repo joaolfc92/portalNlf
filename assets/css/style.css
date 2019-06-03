@@ -244,3 +244,519 @@ button.slick-next {
 	 margin-top: 12px;
     margin-left: 45px;
 }
+
+.container_1{
+	height: 180px;
+}
+
+.container_1_int{
+	height: 180px;
+	width: 100%;
+	max-width: 980px;
+	display: flex;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.calendario{
+	flex: 3;
+	display: flex;
+	margin-right: 15px;
+}
+
+#esq{
+	margin-right: -30px;
+	margin-top: 25px;
+	height: 130px;
+
+}
+
+#dir{
+	margin-left: -30px;
+	margin-top: 25px;
+	height: 130px;
+}
+#calendario_int{
+	height: 100%;
+	width: 530px;
+	background-color: black;
+	margin:auto;
+	color: white;
+ 	font-size: 31px;
+ 	font-family: Fredericka the Great;
+ 	padding-top: 10px;
+ 	text-align: center;
+}
+
+#emblemas{
+	height: 100px;
+	margin-top: 20px;
+}
+
+#emblemas img{
+	height: 80px;
+	width: 100px;
+
+}
+
+#ingressos{
+	height: 50px;
+	width: 125px;
+	color: white;
+	font-size: 15px;
+	background-color:#820013; 
+	border:none;
+	border-radius: 10px;
+	
+}
+
+.loja{
+	flex: 2;
+	display: flex;
+	background-color: #00132A;
+ }
+
+ .leftside{
+ 	display: flex;
+ 	flex: 3;
+ 	flex-direction: column;
+ }
+
+
+
+ .rigthside{
+ 	display: flex;
+ 	flex: 2;
+ 	align-items: center;
+ }
+
+  .rigthside img{
+  	height: 70%;
+  	width: 70%;
+  	object-fit: cover;
+
+  }
+
+ #tittle_left{
+ 	font-size: 31px;
+ 	font-family: Fredericka the Great;
+ 	color: white;
+ 	text-align: center;
+ 	margin-top: 10px;
+ 	margin-left: 5px;
+ }
+
+#btn{
+ 	height: 35px;
+ 	width: 155px;
+ 	margin-top: 20px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	background-color: #002754;
+ 	border:none;
+ 	color: white;
+ 	border-radius: 10px;
+ }
+
+
+
+ .aaa{
+ 	height: 1000px;
+ }
+
+ .interacao{
+ 	height: auto;
+ 	margin-top: 30px;
+ 	
+
+ }
+
+ .interacao_int{
+ 	width: 100%;
+ 	max-width: 980px;
+ 	display: flex;
+ 	margin: auto;
+ 	height: auto;
+ }
+
+ #video{
+ 	display: flex;
+ 	flex: 3;
+ 	background-color: #00132A;
+ 	flex-direction: column;
+
+}
+
+#video_tittle{
+	font-size: 24px;
+ 	font-family: Kelly Slab;
+ 	color: white;
+ 	padding-left: 20px;
+ 	display: flex;
+ 	flex: 1;
+ 	padding-top: 20px;
+
+}
+
+#video_cont{
+	display: flex;
+	flex: 7;
+	background-color: #00132A;
+}
+
+ iframe{
+ 	margin: auto;
+ }
+
+
+ #fas{
+ 	display: flex;
+ 	flex: 2;
+ 	background-color: black;
+ 	margin-left: 20px;
+ 	flex-direction: column;
+ }
+
+#fas_tittle{
+	font-size: 24px;
+ 	font-family: Kelly Slab;
+ 	color: white;
+ 	padding-left: 20px;
+ 	display: flex;
+ 	flex: 1;
+ 	padding-top: 20px;
+}
+
+#fas_cont{
+	display: flex;
+	flex: 7;
+	
+	color: white;
+	font-size: 19px;
+	font-family: Kelly Slab;
+	font-style: italic;
+	margin: 15px;
+}
+
+.info{
+	height:auto;
+	margin-top: 30px;
+
+}
+
+.info_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	display: flex;
+	height: auto;
+}
+
+#novidades{
+	display: flex;
+ 	flex: 3;
+ 	background-color: black;
+ 	flex-direction: column;
+}
+
+#novidades_tittle{
+	display: flex;
+	flex: 1;
+	font-size: 24px;
+	font-family: Kelly Slab;
+	color: white;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+#novidades_int{
+	display: flex;
+	flex: 6;
+	font-size: 14px;
+	font-family: Kelly Slab;
+	color: white;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+#leia_mais{
+	display: flex;
+	flex: 1;
+}
+
+#info_btn{
+	height: 28px;
+	width: 106px;
+	background-color: black;
+	color: #718BA9;
+	font-size:18px;
+	font-family: Kelly Slab;
+	margin-left: 10px;
+	border:none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+
+
+
+#tabela{
+	display: flex;
+ 	flex: 2;
+ 	background-color: black;
+ 	margin-left: 20px;
+ 	flex-direction: column;
+ 	background-color: #00132A;
+}
+
+#tabela_int{
+	display: flex;
+	flex: 1;
+	color: white;
+	font-size: 24px;
+	font-family: Kelly Slab;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+#jogos_int{
+	display: flex;
+	flex: 7;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family: Kelly Slab;
+
+}
+
+#ingressos_int{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+#ing{
+	height: 35px;
+	width: 130px;
+	color: white;
+	background-color: #820013;
+	border:none;
+	margin-bottom: 20px;
+
+}
+
+.cont_2{
+	height:150px;
+	margin-top: 30px;
+
+}
+
+.cont_2_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	display: flex;
+	height: 150px;
+}
+
+#vendas_ing{
+	display: flex;
+	flex: 3;
+	background-color: #00132A;
+	
+}
+
+#vendas_ing_tittle{
+	font-size: 27px;
+    color: #FFFFFF;
+    font-family: Fredericka the Great;
+    background-color: #00132A;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex: 6;
+    margin-left: 20px;
+}
+
+#btn_ing{
+	display: flex;
+	flex: 1;
+}
+
+#btn_red{
+	height: 35px;
+	width: 110px;
+	color: white;
+	background-color: #820013;
+	border:none;
+	margin-bottom: 20px;
+	margin: auto;
+	border-radius: 10px;
+	margin-right:10px;
+}
+
+#face{
+	display: flex;
+	flex: 2;
+	margin-left: 20px;
+	background-color: black;
+}
+
+#text_face{
+	flex: 3;
+	text-align: center;
+	font-size: 24px;
+	font-family: Kelly Slab;
+	margin: auto;
+	color: white;
+}
+
+#logo_face{
+	display: flex;
+	flex: 2;
+	justify-content: center;
+
+}
+
+#logo_face img{
+	height: 70%;
+	width: 70%;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+
+colorir{
+	color: #718BA9;
+}
+
+.rodape {
+	height: 228px;
+	margin-top: 30px;
+}
+
+.rodape_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	display: flex;
+	height: 228px;
+	background-color: black;
+	flex-direction: column;
+}
+
+#dvs{
+	display: flex;
+	flex: 5;
+}
+
+#cred{
+	display: flex;
+	flex: 1;
+}
+
+#col1{
+	display: flex;
+	flex: 1;
+
+}
+
+#col2{
+	display: flex;
+	flex: 1;
+}
+
+#col3{
+	display: flex;
+	flex:1;
+}
+
+#col4{
+	display: flex;
+	flex: 1.5;
+	flex-direction: column;
+}
+
+#col1 img{
+	height: 120px;
+	width: 150px;
+	margin: auto;
+	object-fit: cover;
+}
+
+#col2 img{
+	height: 120px;
+	width: 180px;
+	margin: auto;
+	object-fit: cover;
+}
+
+
+#col3 img{
+	height: 100px;
+	width: 150px;
+	margin: auto;
+	object-fit: cover;
+}
+
+#rs1{
+	display: flex;
+	flex: 1;
+}
+
+#rs1 img{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+p1,p2,p3 {
+	margin-left: 20px;
+	color: white;
+	font-size: 18px;
+	line-height: 60px;
+	margin-right: 20px;
+
+}
+
+#redeSocial{
+	height: 20px;
+	width: 20px;
+	background-color: #00132A;
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	border:none;
+
+}
+
+#rs2{
+	display: flex;
+	flex: 1;
+}
+
+#rs2 img{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#rs3{
+	display: flex;
+	flex: 1;
+}
+
+#rs3 img{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+
+#cred{
+	font-size: 12px;
+	color: white;
+	font-family: Open Sans;
+	padding-left: 30px;
+}
