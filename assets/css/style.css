@@ -760,3 +760,351 @@ p1,p2,p3 {
 	font-family: Open Sans;
 	padding-left: 30px;
 }
+
+.linha_1,.linha_2,.linha_3{
+	height: 1px;
+	background-color: #294e85;
+	margin-top: 10px;
+	padding-top: 6px;
+	display: none;
+	
+}
+
+.menuMobile{
+	height: 60px;
+	width: 60px;
+	margin-bottom: 30px;
+	margin-top: -10px;
+    margin-left: 50px;
+    display: none;
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:980px){
+
+	.topo_int,
+	.menu_int,
+	.banner_int,
+	.container_1_int,
+	.interacao_int,
+	.info_int,
+	.cont_2_int,
+	.rodape_int{
+		max-width: 768px;
+	}
+
+	.banner,
+	.banner_int{
+		height: auto;
+	}
+
+	.interacao_int {
+    flex-direction: column;
+	}
+
+	#fas{
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+
+	.rigthside{
+		display: none;
+	}
+
+	#dir,#esq{
+		display: none;
+	}
+
+	#video_cont {
+    margin-bottom: 40px;
+	}
+
+	#fas_cont{
+		margin-bottom: 40px;
+	}
+
+	.rodape,.rodape_int{
+		height: auto;
+	}
+
+	#dvs {
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+	}
+
+	#col1,#col2,#col3{
+		min-width: 250px;
+	}
+
+	#col4{
+		flex-direction: row;
+	}
+
+	#rs1,#rs2,#rs3{
+		 height: max-content;
+	}
+
+	p1, p2, p3 {
+    margin-left: 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 60px;
+    margin-right: 20px;
+	}
+
+	#rs2 {
+    display: flex;
+    flex: 1;
+    margin-left: -15px;
+}
+
+	#rs1 {
+    display: flex;
+    flex: 1;
+    padding-left: 15px;
+}
+
+#rs3 {
+    display: flex;
+    flex: 1;
+    padding-left: 10px;
+}
+
+#cred{
+	justify-content: center;
+}
+
+}	
+
+
+@media only screen and (min-width:425px) and (max-width:767px){
+
+	
+	.menu_int,
+	.banner_int,
+	.container_1_int,
+	.interacao_int,
+	.info_int,
+	.cont_2_int,
+	.rodape_int{
+		max-width: 425px;
+	}
+
+	.topo_int,
+	.topo_tittle{
+		max-width: 300px;
+	}
+
+	.topo_tittle{
+		font-size: 22px;
+	}
+
+	nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    background-color: rgba(33,34,35,0.75);
+    z-index: 9;
+    position: absolute;
+	}
+
+
+	.linha_1,.linha_2,.linha_3{
+		
+	display: block;
+	}
+
+
+	.menuMobile{
+	display: block;
+	cursor: pointer;
+
+	}
+
+	.menu,.menu_int{
+		height: auto;
+	}
+
+	#menuMenu{
+		height: 60px;
+	}
+
+
+	.menuMobile{
+		margin-top: 0px;
+		height: 5px;
+		margin-bottom: 50px;
+
+	}
+
+	.slick-initialized .slick-slide {
+    display: flex;
+    flex-wrap: wrap;
+	}
+
+	.banner,
+	.banner_int{
+		height: auto;
+	}
+
+	.slick-slide img {
+    width: 100%;
+    
+	}
+
+	.container_1 {
+    height: auto;
+     margin-top: 270px;
+	}
+
+	.container_1_int{
+		height: auto;
+		flex-direction: column;
+	}
+
+
+	#dir,#esq{
+		display: none;
+	}
+
+	.calendario {
+    flex: 3;
+    display: flex;
+    margin-right: 0px;
+}
+
+	#emblemas {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+	}
+
+	.loja {
+    flex: 2;
+    display: flex;
+    background-color: #00132A;
+    margin-top: 20px;
+}
+
+.leftside {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.interacao{
+	margin-top: 20px;
+}
+
+.interacao_int{
+	flex-direction: column;
+}
+
+#fas {
+    
+     margin-left:0px;
+     margin-top: 20px;
+ }    
+    
+.info {
+    height: auto;
+    margin-top: 20px;
+}
+
+.info_int {
+    flex-direction: column;
+}
+
+#tabela {
+    
+  margin-left: 0px;
+   margin-top: 20px;
+   
+}
+
+#jogos_int {
+    padding-left: 15px;
+}
+
+.cont_2 {
+    height: auto;
+    margin-top: 20px;
+}
+
+.cont_2_int {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+#vendas_ing_tittle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#face {
+    
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.rodape {
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.rodape_int{
+	height: auto;
+	width: 100%;
+}
+
+#dvs {
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+}
+
+#col1,#col2,#col3 {
+    display: flex;
+    flex: 1;
+    min-width: 100px;
+}
+
+#col1 img {
+    height: 70px;
+    width: 70px;
+   
+}
+
+#col2 img {
+    height: 70px;
+    width: 120px;
+   
+}
+
+
+#col3 img {
+    height: 70px;
+    width: 100px;
+   
+}
+
+#col4 {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#cred {
+    
+     padding-left: 0px; 
+}
+
+}	
